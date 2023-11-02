@@ -184,7 +184,8 @@ func init() {
 		cmdObjgraph,
 		cmdReachable,
 		cmdHTML,
-		cmdRead)
+		cmdRead,
+		cmdObjref)
 
 	// customize the usage template - viewcore's command structure
 	// is not typical of cobra-based command line tool.
